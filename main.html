@@ -1,135 +1,170 @@
-
 <!DOCTYPE html>
+
 <html>
+
 <head>
-	<title>Shopping Cart</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
+
 <body>
-	<main class="page">
-	 	<section class="shopping-cart dark">
-	 		<div class="container">
-		        <div class="block-heading">
-		          <h2>Shopping Cart</h2>
-		          <p>The customer is very important, the customer will be followed by the customer.Now, as an urn, I have no right to be in possession of property.</p>
-		        </div>
-		        <div class="content">
-	 				<div class="row">
-	 					<div class="col-md-12 col-lg-8">
-	 						<div class="items">
-				 				<div class="product">
-				 					<div class="row">
-					 					<div class="col-md-3">
-					 						<img class="img-fluid mx-auto d-block image" src="https://assets.wired.com/photos/w_1920/wp-content/uploads/2015/08/samsung-story1.jpg">
-					 					</div>
-					 					<div class="col-md-8">
-					 						<div class="info">
-						 						<div class="row">
-							 						<div class="col-md-5 product-name">
-							 							<div class="product-name">
-								 							<a href="#">I am Very Happy</a>
-								 							<div class="product-info">
-									 							<div>Display: <span class="value">5 inch</span></div>
-									 							<div>RAM: <span class="value">4GB</span></div>
-									 							<div>Memory: <span class="value">32GB</span></div>
-									 						</div>
-									 					</div>
-							 						</div>
-							 						<div class="col-md-4 quantity">
-							 							<label for="quantity">Quantity:</label>
-							 							<input id="quantity" type="number" value ="0" class="form-control quantity-input">
-							 						</div>
-							 						<div class="col-md-3 price">
-							 							<span>$120</span>
-							 						</div>
-							 					</div>
-							 				</div>
-					 					</div>
-					 				</div>
-				 				</div>
-				 				<div class="product">
-				 					<div class="row">
-					 					<div class="col-md-3">
-					 						<img class="img-fluid mx-auto d-block image" src="https://assets.wired.com/photos/w_1920/wp-content/uploads/2015/08/samsung-story1.jpg">
-					 					</div>
-					 					<div class="col-md-8">
-					 						<div class="info">
-						 						<div class="row">
-							 						<div class="col-md-5 product-name">
-							 							<div class="product-name">
-								 							<a href="#">I am Very Happy</a>
-								 							<div class="product-info">
-									 							<div>Display: <span class="value">5 inch</span></div>
-									 							<div>RAM: <span class="value">4GB</span></div>
-									 							<div>Memory: <span class="value">32GB</span></div>
-									 						</div>
-									 					</div>
-							 						</div>
-							 						<div class="col-md-4 quantity">
-							 							<label for="quantity">Quantity:</label>
-							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
-							 						</div>
-							 						<div class="col-md-3 price">
-							 							<span>$120</span>
-							 						</div>
-							 					</div>
-							 				</div>
-					 					</div>
-					 				</div>
-				 				</div>
-				 				<div class="product">
-				 					<div class="row">
-					 					<div class="col-md-3">
-					 						<img class="img-fluid mx-auto d-block image" src="https://assets.wired.com/photos/w_1920/wp-content/uploads/2015/08/samsung-story1.jpg">
-					 					</div>
-					 					<div class="col-md-8">
-					 						<div class="info">
-						 						<div class="row">
-							 						<div class="col-md-5 product-name">
-							 							<div class="product-name">
-									 							<a href="#">I am Very Happy</a>
-								 							<div class="product-info">
-									 							<div>Display: <span class="value">5 inch</span></div>
-									 							<div>RAM: <span class="value">4GB</span></div>
-									 							<div>Memory: <span class="value">32GB</span></div>
-									 						</div>
-									 					</div>
-							 						</div>
-							 						<div class="col-md-4 quantity">
-							 							<label for="quantity">Quantity:</label>
-							 							<input id="quantity" type="number" value ="1" class="form-control quantity-input">
-							 						</div>
-							 						<div class="col-md-3 price">
-							 							<span>$120</span>
-							 						</div>
-							 					</div>
-							 				</div>
-					 					</div>
-					 				</div>
-				 				</div>
-				 			</div>
-			 			</div>
-			 			<div class="col-md-12 col-lg-4">
-			 				<div class="summary">
-			 					<h3>Summary</h3>
-			 					<div class="summary-item"><span class="text">Subtotal</span><span class="price">$360</span></div>
-			 					<div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div>
-			 					<div class="summary-item"><span class="text">Shipping</span><span class="price">$0</span></div>
-			 					<div class="summary-item"><span class="text">Total</span><span class="price">$360</span></div>
-			 					<button type="button" class="btn btn-primary btn-lg btn-block">Checkout</button>
-				 			</div>
-			 			</div>
-		 			</div> 
-		 		</div>
-	 		</div>
-		</section>
-	</main>
+	<div class = "whole">
+		<div class = "block-heading">  
+		<h1>Shopping cart</h1>	
+		<div class = "top-para">
+			<p>The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in position of property.</p>
+		</div>
+		</div>
+
+		<div class = "whole-card">
+			<div class = "container">
+				<div class = "row">
+					<div class = "col-lg-8">
+			<div class = "white-card">
+				<div class = "product">
+					<div class = "row">
+					<div>
+						<a href = "#" target = "_self"><img src = "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1682220486254/eedba14032d0e897492c7b27ed7c7515.png" alt = "mobile" class = "img-fluid"/></a>
+					</div>
+
+					<div>
+						<h2>I am very sorry</h2>
+						<div>
+							Display: 5 inches<br>
+							RAM: 4GB<br>
+							Memory: 32GB<br>
+						</div>
+					</div>
+
+					<div class = "quant-input-cont">
+						<label for = "text">
+							Quantity:
+						</label>
+						<input type = "number" id = "text" name = "text"  class = "input">
+					</div>
+
+					<div>
+						<span>&#36;120</span>
+					</div>
+					
+					</div>
+				</div>
+
+				<div class = "product">
+					<div class = "row"> 
+					<div>
+						<a href = "#" target = "_self"><img src = "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1682220486254/eedba14032d0e897492c7b27ed7c7515.png" alt = "mobile" class = "img-fluid"/></a>
+					</div>
+
+					<div>
+						<h2>I am very sorry</h2>
+						<div>
+							Display: 5 inches<br>
+							RAM: 4GB<br>
+							Memory: 32GB<br>
+						</div>
+					</div>
+
+					<div class = "quant-input-cont">
+						<label for = "text">
+							Quantity:
+						</label>
+						<input type = "number" id = "text" name = "text"  class = "input">
+					</div>
+
+					<div>
+						<span>&#36;120</span>
+					</div>
+					
+					</div>
+				</div>
+
+				<div class = "product">
+					<div class = "row"> 
+					<div>
+						<a href = "#" target = "_self"><img src = "https://in-exstatic-vivofs.vivo.com/gdHFRinHEMrj3yPG/1682220486254/eedba14032d0e897492c7b27ed7c7515.png" alt = "mobile" class = "img-fluid"/></a>
+					</div>
+
+					<div>
+						<h2>I am very sorry</h2>
+						<div>
+							Display: 5 inches<br>
+							RAM: 4GB<br>
+							Memory: 32GB<br>
+						</div>
+					</div>
+
+					<div class = "quant-input-cont">
+						<label for = "text">
+							Quantity:
+						</label>
+						<input type = "number" id = "text" name = "text"  class = "input">
+					</div>
+
+					<div>
+						<span>&#36;120</span>
+					</div>
+					
+					</div>
+				</div>
+				
+			</div>
+					</div>
+				
+
+			<div class = "col-lg-4">
+				<div class = "summary">
+				<h3>Summary</h3>
+
+				<div class = "sum-cont">
+					<div class = "summary-item">
+						<div>
+							Subtotal
+						</div>
+						<div>
+							&#36;360
+						</div>
+					</div>
+
+					<div class = "summary-item">
+						<div>
+							Discount
+						</div>
+						<div>
+							&#36;0
+						</div>
+					</div>
+
+					<div class = "summary-item">
+						<div>
+							Shipping
+						</div>
+						<div>
+							&#36;0
+						</div>
+					</div>
+
+					<div class = "summary-item">
+						<div>
+							Total
+						</div>
+						<div>
+							&#36;360
+						</div>
+					</div>
+
+					<button type = "button" class = "button">checkout</button>
+				</div>
+			</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script type="text/javascript" src="./script.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-</body>
+
 </html>
